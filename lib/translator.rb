@@ -1,8 +1,8 @@
 # require modules here
 require 'yaml'
 def load_library(path)
-  emojis = YAML.load_file(path)
-  return emojis
+  thing = YAML.load_file(path)
+  return thing
 end
   # code goes here
 

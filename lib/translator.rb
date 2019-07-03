@@ -2,7 +2,7 @@
 
 def load_library(path)
   emojis = YAML.load_file(path)
-  emojis
+  return emojis
 end
   # code goes here
 
